@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 //declare variables
+
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     struct ListNode dummy;
     struct ListNode* tail = &dummy;
